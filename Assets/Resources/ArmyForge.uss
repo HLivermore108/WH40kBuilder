@@ -1,0 +1,87 @@
+.app { background-color: rgb(14, 19, 23); color: rgb(238, 242, 238); flex-grow: 1; font-size: 18px; }
+.header { flex-direction: row; align-items: center; padding: 22px 30px 18px 30px; border-bottom-width: 1px; border-bottom-color: rgb(51, 61, 62); }
+.brand-mark { background-color: rgb(198, 166, 91); color: rgb(14, 19, 23); font-size: 23px; -unity-font-style: bold; padding: 10px; margin-right: 14px; border-radius: 3px; }
+.brand { flex-grow: 1; }
+.brand-title { font-size: 23px; -unity-font-style: bold; letter-spacing: 4px; }
+.eyebrow { font-size: 14px; color: rgb(198, 210, 203); letter-spacing: 0.5px; margin-top: 5px; margin-bottom: 7px; white-space: normal; }
+.edition { color: rgb(221, 195, 134); font-size: 15px; }
+.nav { flex-direction: row; flex-wrap: wrap; padding: 8px 25px; background-color: rgb(19, 26, 30); }
+.nav Button { background-color: rgba(0, 0, 0, 0); border-width: 0; padding: 9px 20px; }
+.nav .selected { color: rgb(221, 192, 122); border-bottom-width: 2px; border-bottom-color: rgb(198, 166, 91); }
+.content { flex-grow: 1; flex-shrink: 1; min-height: 0; padding: 24px 30px; }
+.title { font-size: 38px; -unity-font-style: bold; margin-bottom: 12px; white-space: normal; }
+.subtitle { color: rgb(198, 213, 205); margin-bottom: 26px; white-space: normal; }
+.card, .score-card, .mission-card { background-color: rgb(24, 32, 36); border-width: 1px; border-color: rgb(65, 81, 80); border-radius: 7px; padding: 22px; margin-bottom: 18px; }
+.mission-card { border-left-width: 4px; border-left-color: rgb(195, 163, 88); }
+.card-title { font-size: 23px; -unity-font-style: bold; flex-grow: 1; flex-shrink: 1; white-space: normal; margin-bottom: 10px; }
+.section-title { font-size: 19px; -unity-font-style: bold; color: rgb(229, 206, 152); margin-top: 22px; margin-bottom: 14px; }
+.body { white-space: normal; margin-bottom: 12px; }
+.muted { color: rgb(193, 210, 202); font-size: 17px; white-space: normal; margin-bottom: 12px; }
+.points { color: rgb(237, 211, 152); -unity-font-style: bold; font-size: 22px; white-space: normal; margin-bottom: 12px; }
+.warning { color: rgb(235, 173, 118); white-space: normal; margin-top: 10px; margin-bottom: 12px; }
+.success { color: rgb(137, 207, 166); margin-top: 12px; }
+.row, .toolbar { flex-direction: row; flex-wrap: wrap; align-items: center; }
+.row { justify-content: space-between; }
+.toolbar { margin-top: 6px; margin-bottom: 10px; }
+Button { background-color: rgb(39, 52, 55); color: rgb(240, 245, 240); border-width: 1px; border-color: rgb(88, 105, 103); border-radius: 4px; min-height: 46px; padding: 10px 16px; margin: 4px 9px 4px 0; white-space: normal; }
+Button:hover { background-color: rgb(59, 76, 76); border-color: rgb(177, 160, 113); }
+Button:focus { border-color: rgb(226, 191, 110); }
+Button.primary { background-color: rgb(195, 163, 88); color: rgb(18, 23, 23); -unity-font-style: bold; border-color: rgb(195, 163, 88); }
+Button.primary:hover { background-color: rgb(222, 193, 126); }
+Button.danger { color: rgb(238, 158, 145); }
+Button:disabled { opacity: 0.4; }
+.columns { flex-direction: row; align-items: flex-start; }
+.column { flex-grow: 1; flex-basis: 0; min-width: 0; margin-right: 12px; }
+.catalog-results { height: 580px; }
+.score-card { flex-grow: 1; flex-basis: 0; margin-right: 12px; }
+.grid { flex-direction: row; flex-wrap: wrap; }
+.grid > .card { width: 31%; min-width: 240px; margin-right: 14px; }
+.empty { color: rgb(158, 176, 173); padding: 30px 15px; white-space: normal; }
+.status { background-color: rgb(20, 29, 32); padding: 12px 24px; font-size: 15px; color: rgb(192, 216, 203); white-space: normal; }
+.unity-base-field { margin-top: 9px; margin-bottom: 12px; min-height: 44px; color: rgb(238, 243, 237); }
+.unity-base-field__label { min-width: 160px; color: rgb(204, 219, 209); padding-top: 8px; white-space: normal; }
+.unity-base-field__input { background-color: rgb(13, 21, 24); color: rgb(240, 244, 234); border-color: rgb(90, 111, 106); border-width: 1px; border-radius: 4px; padding: 10px; min-width: 100px; }
+.unity-text-field__input, .unity-base-text-field__input, .unity-base-popup-field__text, .unity-popup-field__text { color: rgb(240, 244, 234); font-size: 18px; white-space: normal; }
+.unity-base-dropdown__container, .unity-base-dropdown__item { background-color: rgb(24, 34, 38); color: rgb(240, 244, 234); }
+.unity-base-dropdown__label { color: rgb(240, 244, 234); font-size: 18px; }
+.unity-base-dropdown__item { min-height: 42px; padding: 6px 10px; }
+.unity-base-dropdown__item:hover { background-color: rgb(65, 84, 81); }
+.unity-toggle__input { min-width: 24px; background-color: rgba(0, 0, 0, 0); }
+.unity-progress-bar { margin-top: 9px; margin-bottom: 16px; height: 22px; }
+.unity-progress-bar__background { background-color: rgb(11, 19, 21); }
+.unity-progress-bar__progress { background-color: rgb(102, 127, 112); }
+.unity-progress-bar__title { color: rgb(255, 252, 237); font-size: 15px; }
+.overlay { position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.8); align-items: center; justify-content: center; padding: 24px; }
+.modal { width: 1000px; max-width: 100%; height: 92%; background-color: rgb(22, 30, 34); border-width: 1px; border-color: rgb(153, 141, 99); border-radius: 8px; padding: 24px; }
+.modal-title { font-size: 29px; -unity-font-style: bold; flex-grow: 1; flex-shrink: 1; white-space: normal; }
+.modal-body { flex-grow: 1; margin-top: 14px; }
+.stats, .model-grid { flex-direction: row; flex-wrap: wrap; }
+.stat { min-width: 72px; padding: 10px 16px; margin-right: 8px; margin-bottom: 10px; background-color: rgb(34, 46, 48); align-items: center; }
+.stat-value { font-size: 27px; -unity-font-style: bold; color: rgb(244, 231, 187); }
+.model { width: 235px; padding: 14px; margin: 6px; background-color: rgb(16, 24, 27); border-radius: 5px; }
+.model.destroyed { opacity: 0.45; }
+.counter { flex-direction: row; justify-content: space-between; align-items: center; }
+.counter Button { min-width: 44px; padding: 7px; }
+.compact .header { padding: 12px; }
+.compact .brand-title { font-size: 19px; letter-spacing: 2px; }
+.compact .edition { display: none; }
+.compact .content { padding: 18px 12px; }
+.compact .columns { flex-direction: column; align-items: stretch; }
+.compact .column, .compact .score-card { flex-basis: auto; margin-right: 0; }
+.compact .grid > .card { width: 100%; min-width: 0; margin-right: 0; }
+.compact .nav { padding: 4px; }
+.compact .nav Button { padding: 7px 12px; }
+.compact .overlay { padding: 8px; }
+.compact .modal { padding: 12px; height: 97%; }
+.compact .unity-base-field { flex-direction: column; }
+.compact .model { width: 215px; }
+.extra-large { font-size: 21px; }
+.extra-large .body, .extra-large .muted, .extra-large .subtitle { font-size: 21px; }
+.extra-large .eyebrow, .extra-large .status { font-size: 17px; }
+.extra-large .card-title { font-size: 27px; }
+.extra-large .unity-base-field__input, .extra-large .unity-base-popup-field__text, .extra-large .unity-base-dropdown__label { font-size: 21px; }
+.ability-tag { color: rgb(249, 222, 150); border-color: rgb(151, 135, 83); }
+.ability-dialog { height: auto; max-height: 85%; width: 760px; }
+.ability-dialog .unity-scroll-view { flex-shrink: 1; margin-top: 18px; margin-bottom: 18px; }
+.deployment-preview { margin-top: 16px; margin-bottom: 20px; padding: 12px; background-color: rgb(13, 21, 24); }
+.loadout-detail { margin-bottom: 16px; }

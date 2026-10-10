@@ -1,0 +1,6 @@
+{
+  "name": "ArmyForge.Tests",
+  "references": ["ArmyForge"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}
